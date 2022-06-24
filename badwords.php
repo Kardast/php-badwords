@@ -6,7 +6,7 @@ I had to fall to lose it all
 But in the end, it doesn’t even matter. ';
 $myName = 'Quack';
 $badWord = $_GET['word'];
-$myReplacedText = str_replace('end', $badWord, $myText);
+$myReplacedText = str_replace($badWord, '(***)', $myText);
 ?>
 
 <!DOCTYPE html>
